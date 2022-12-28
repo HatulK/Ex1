@@ -5,7 +5,7 @@ public class ConcreteMember implements Member {
     /**
      * defining a data member from type UndoableStringBuilder
      */
-    UndoableStringBuilder undostring;
+    public UndoableStringBuilder undostring;
 
     /**
      * an empty constructor
@@ -21,4 +21,8 @@ public class ConcreteMember implements Member {
         this.undostring=usb;
     }
 
+    @Override
+    public String toString() {
+        return undostring.toString();
+    }
 }

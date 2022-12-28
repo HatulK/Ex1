@@ -61,7 +61,7 @@ public class GroupAdmin implements Sender {
     /**
      * @param offset an offset to locate the obj in the UndoableStringBuilder
      * @param obj a string to insert to the UndoableStringBuilder
-     * return UndoableStringBuilder
+     * inserting a string with an offset to this.
      */
     @Override
     public void insert(int offset, String obj) {
